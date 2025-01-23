@@ -8,7 +8,7 @@ import { PageTransition } from "@/components/PageTransition";
 import { ProjectCard } from "@/components/ProjectCard";
 import { useEffect, useState } from "react";
 
-// Sample data - replace with your actual information
+// Data
 const projects = [
   {
     title: "E-Commerce Platform",
