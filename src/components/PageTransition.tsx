@@ -5,6 +5,7 @@ interface PageTransitionProps {
   children: ReactNode;
 }
 
+/** Wraps content in an animated transition between pages */
 export function PageTransition({ children }: PageTransitionProps) {
   return (
     <motion.div
