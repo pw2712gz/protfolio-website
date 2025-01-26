@@ -16,7 +16,7 @@ interface ProjectCardProps {
   project: Project;
   index: number;
 }
-
+// TODO: Add a link to the project
 export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <motion.div
